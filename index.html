@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>RandomRush</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="particles"></div>
+
+<header>
+
+<h1>⚡ RandomRush</h1>
+<p>🎲 Unlimited Ideas. Infinite Inspiration.</p>
+
+</header>
+
+<div class="container">
+
+<div class="generator-card">
+
+<label>
+<i class="fa-solid fa-layer-group"></i> Choose Generator
+</label>
+
+<select id="category">
+
+<option value="username">👤 Username Generator</option>
+<option value="business">🏢 Business Name Generator</option>
+<option value="youtube">🎬 YouTube Video Idea</option>
+<option value="startup">🚀 Startup Idea</option>
+<option value="story">📖 Story Idea</option>
+
+</select>
+
+<button onclick="generate()">
+<i class="fa-solid fa-bolt"></i> Generate
+</button>
+
+<div id="result">
+✨ Click Generate
+</div>
+
+<div class="buttons">
+
+<button onclick="copyText()">
+<i class="fa-solid fa-copy"></i> Copy
+</button>
+
+<button onclick="shareText()">
+<i class="fa-solid fa-share"></i> Share
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>💡 "Ideas appear when randomness meets creativity."</p>
+<p>🚀 "Your next big idea might be one click away."</p>
+<p>🎲 "Powered by imagination."</p>
+
+<p class="copyright">
+© 2026 RandomRush. All Rights Reserved.
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
